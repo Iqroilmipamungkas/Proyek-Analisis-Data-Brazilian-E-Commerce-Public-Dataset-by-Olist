@@ -7,14 +7,7 @@ sns.set(style='dark')
 
 all_df = pd.read_csv('all_data.csv')
 
-orders_dt_columns = ['order_purchase_timestamp',
-                    'order_approved_at',
-                    'order_delivered_carrier_date',
-                    'order_delivered_customer_date',
-                    'order_estimated_delivery_date']
-
-for column in orders_dt_columns:
-  all_df[column] = pd.to_datetime(all_df[column])
+all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'])
 
 def create_products_df(df):
     total_products_df = df.resample(rule='D', on='order_purchase_timestamp').agg({
