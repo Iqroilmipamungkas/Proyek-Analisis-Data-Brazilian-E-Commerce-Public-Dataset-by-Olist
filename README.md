@@ -1,4 +1,6 @@
-# E-Commerce Dashboard 🛍️
+# Submission Dicoding "Belajar Data Analytics dengan Python"
+## Proyek Analisis Data
+Repository ini berisi proyek analisis data yang saya kerjakan dengan menggunakan Streamlit Streamlit logo
 
 ## Setup environment
 ```
