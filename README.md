@@ -1,6 +1,6 @@
 # Submission Dicoding "Belajar Data Analytics dengan Python"
 ## Proyek Analisis Data
-Repository ini berisi proyek analisis data yang saya kerjakan dengan menggunakan Streamlit ![Streamlit](https://vectorseek.com/wp-content/uploads/2023/08/Streamlit-Logo-Vector.svg-.png)
+Repository ini berisi proyek analisis data yang saya kerjakan dengan menggunakan Streamlit ![Streamlit](https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png)
 
 ## Setup environment
 ```
